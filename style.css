@@ -1,0 +1,119 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+
+body{
+    font-family: "Overpass", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #141519;
+}
+main{
+    background-color: #19202a;
+    height: 415px;
+    width: 415px;
+    border-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+main span.star {
+    width: 50px;
+    height: 50px;
+    background: rgb(34,41,51);
+    background: radial-gradient(circle, rgba(34,41,51,1) 0%, rgba(26,33,43,1) 100%);    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+main .information-container h1 {
+    color: white;
+    margin-left: 35px;
+}
+main .information-container p {
+    margin-left: 35px;
+    color: #959ca6;
+    line-height: 21px;
+    font-size: 15px;
+}
+.parent-rating-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.parent-rating-container span {
+    width: 55px;
+    height: 55px;
+    background: #272e38;
+    color: #959ca6;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.submit-button-container input{
+    width: 370px;
+    background-color: #f87719;
+    color: white;
+    border: none;
+    border-radius: 39px;
+    padding: 17px 0px ;
+    cursor: pointer;
+    font-size: 15px;
+}
+/* active styling*/
+.parent-rating-container span:hover{
+    background-color: #7c8898;
+    color: white;
+}
+.parent-rating-container span:active,span.active-span{
+    background-color: #f87719;
+    color: white;
+}
+.submit-button-container input:active{
+
+    color:#f87719;
+    background-color: white;
+}
+
+
+.thanks-image-contianer{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.select-rating{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.select-rating >span{
+    background: #272e38;
+    color: #f5781b;
+    padding: 10px 22px;
+    border-radius: 24px;
+}
+.thanks-message-container h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+.thanks-message-container p{
+    color: #535a64;
+    font-size: 15.5px;
+    text-align: center;
+    padding: 0px 35px;
+    line-height: 1.5em;
+}
+.thanks-card{
+    display: none;
+}
